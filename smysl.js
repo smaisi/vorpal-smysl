@@ -1,5 +1,16 @@
+
+var fs = require('fs');
 var vorpal = require('vorpal')();
 var count = 0;
+
+
+
+vorpal
+    .command('fileAdd <filePath>', 'Copy file to the same directory')
+    .action(function(args,callback){
+    fs.appendFile('a.js', "\n" + args.filePath, function(err){if(err){return err;}});
+    callback();
+    });
 
 
 
