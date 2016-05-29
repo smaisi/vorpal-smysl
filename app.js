@@ -9,5 +9,5 @@ var temp = fs.access(PATH, fs.R_OK | fs.W_OK, (err) => {
 });
 
 
-
+console.log("LOG TEST:");
 console.log(temp);
