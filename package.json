@@ -1,9 +1,10 @@
 {
   "name": "vorpal_smysl",
   "version": "0.0.1",
-  "description": "",
+  "description": "Automation tool for web development",
   "main": "index.js",
   "dependencies": {
+    "fs-extra": "^0.30.0",
     "vorpal": "^1.10.10"
   },
   "DevDependencies": {},

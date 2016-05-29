@@ -1,0 +1,9 @@
+{
+    "folderShortCuts":{
+        "m": "models",
+        "c": "controllers",
+        "s": "schemas",
+        "v": "views",
+        "cs": "css"
+    }
+}
