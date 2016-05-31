@@ -1,6 +1,7 @@
 var fs = require('fs-extra');
 var PATH = "D:/Projects/zTest/a/b";
 var options;
+
 fs.readJson('zconfig.json',(err,obj) => {
   if (err) throw err;
   options = obj;
